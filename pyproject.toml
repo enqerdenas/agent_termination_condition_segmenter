@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "enqerdenas-alignrsr_jd405"
+name = "enqerdenas-agent_termination_condition_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对对齐算法研究员·智能体的任务终止条件相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://enqerdenas.github.io"
-Repository = "https://github.com/enqerdenas/alignrsr_jd405"
-Issues = "https://github.com/enqerdenas/alignrsr_jd405/issues"
+Repository = "https://github.com/enqerdenas/agent_termination_condition_segmenter"
+Issues = "https://github.com/enqerdenas/agent_termination_condition_segmenter/issues"
 
 [project.scripts]
-alignrsr_jd405 = "alignrsr_jd405:main"
+agent_termination_condition_segmenter = "agent_termination_condition_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["alignrsr_jd405"]
+py-modules = ["agent_termination_condition_segmenter"]
